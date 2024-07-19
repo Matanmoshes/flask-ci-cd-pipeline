@@ -1,0 +1,20 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore system-specific files (optional)
+.DS_Store
+Thumbs.db
+
+# Ignore VSCode workspace settings (optional)
+.vscode/
+
+# Ignore environment variable files (optional)
+.env
