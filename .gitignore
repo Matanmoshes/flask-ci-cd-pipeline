@@ -18,3 +18,5 @@ Thumbs.db
 
 # Ignore environment variable files (optional)
 .env
+
+.for_me_send_email.py
