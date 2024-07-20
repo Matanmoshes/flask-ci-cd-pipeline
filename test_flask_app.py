@@ -1,5 +1,6 @@
 import unittest
-from flask_app import app  # Ensure this import matches the new filename
+from flask_app import app
+
 
 class HelloWorldTestCase(unittest.TestCase):
     def setUp(self):
@@ -10,6 +11,7 @@ class HelloWorldTestCase(unittest.TestCase):
         response = self.app.get('/')
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.data, b'Hello, World!')
+
 
 if __name__ == '__main__':
     unittest.main()
